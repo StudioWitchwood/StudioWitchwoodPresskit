@@ -1,0 +1,123 @@
+utf charset-8
+
+body {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Blanch-Caps';
+  src: url('fonts/blanch/Blanch-Caps.eot?#iefix') format('embedded-opentype'),
+      url('fonts/blanch/Blanch-Caps.otf')  format('opentype'),
+	     url('fonts/blanch/Blanch-Caps.woff') format('woff'),
+       url('fonts/blanch/Blanch-Caps.ttf')  format('truetype'),
+       url('fonts/blanch/Blanch-Caps.svg#Blanch-Caps') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  speak: none; }
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#navigation h1.nav-header {
+  padding-left: 15px;
+    font-family: 'Blanch-Caps';
+    font-size: 72px;
+
+}
+
+#navigation h2 {
+padding-left: 10px;
+  font-family: 'Blanch-Caps';
+
+
+}
+
+#navigation ul.uk-nav {
+  padding: 10px 0;
+}
+
+#navigation p {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+
+
+}
+
+#content h2 {
+    font-family: 'Blanch-Caps';
+    font-size: 42px;
+
+}
+#content p {
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+
+
+}
+
+#content img.header {
+  margin-bottom: 20px;
+}
+
+#content ul {
+  list-style-type: square;
+}
+
+#content li.done {
+  color: #008000;
+  text-decoration: line-through;
+}
+
+#content div.images div {
+  padding-bottom: 25px;
+}
+
+#content p.images-text {
+  margin-top: -15px;
+}
+
+#content .iframe-container {
+  position: relative;
+  /* Magic! Makes sure the container is high enough to show the entire iframe
+	 * Thanks to http://andmag.se/2011/11/responsive-embeds/ */
+  padding-bottom: 56.5%;
+}
+
+#content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#description strong {
+  font-style: italic;
+
+}
+
+
+
+#contact a{
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-
+}
+
+@media (max-width: 767px) {
+  h2 {
+    margin-top: 25px;
+  }
+}
